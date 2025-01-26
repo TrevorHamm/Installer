@@ -1,6 +1,7 @@
-EDS Installer: A simple installer that pulls down a zip file from a network 
-location, extracts it and creates a shortcut to the extracted executable in 
-the Start menu.
+EDS Installer: A simple installer that:
+- Pulls down a zip file from a network location
+- Extracts it to %LocalAppdata%
+- Creates a shortcut to the extracted executable in the Start menu
 
 Usage: Installer.exe <program_name>
 
@@ -8,8 +9,8 @@ The zip file is extracted to the MyApps directory.
 A shortcut is created in the Programs/MyApps Start menu.
 
 Dependencies:
-     ZLib:    https://github.com/kiyolee/zlib-win-build.git
-     LibZip:  https://github.com/kiyolee/libzip-win-build.git
+- ZLib:    https://github.com/kiyolee/zlib-win-build.git
+- LibZip:  https://github.com/kiyolee/libzip-win-build.git
 
 Application and dependencies are statically linked so that the executable
 is a single file.
