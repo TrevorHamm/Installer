@@ -5,9 +5,6 @@ EDS Installer: A simple installer that:
 
 Usage: Installer.exe <program_name>
 
-The zip file is extracted to the MyApps directory.
-A shortcut is created in the Programs/MyApps Start menu.
-
 Dependencies:
 - ZLib:    https://github.com/kiyolee/zlib-win-build.git
 - LibZip:  https://github.com/kiyolee/libzip-win-build.git
